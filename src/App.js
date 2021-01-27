@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {Switch, Route} from 'react-router-dom';
+import Nav from '../src/Components/Nav';
+//  Switch parent container to allow access to routing
+// Route is the actual route that allows the webpage to be acsessed via http link
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav/>
+    <Switch>
+      {/* back slash means it's always my home page */}
+      <Route exact path="/">
+        <div>Home Page</div>
+      </Route>
+
+      <Route path="/products">
+        <div>Products Page</div>
+      </Route>
+
+      <Route path="/contact">
+        <div>Contact</div>
+      </Route>
+    </Switch>
+    </>
+   
   );
 }
 

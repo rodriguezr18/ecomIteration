@@ -1,0 +1,114 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName":"Eternal Atake",
+            "artistName":"Lil Uzi",
+            "imgSource":"https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1624/image/600x/9df78eab33525d08d6e5fb8d27136e95/0/7/075679831934.jpg",
+            "price": 333,
+            "description": "Will have you feeling like you're floating out in space."
+        },
+
+        {
+            "id": 2,
+            "productName":"Darkskyn",
+            "artistName": "Daylyt",
+            "imgSource":"https://pbs.twimg.com/media/Dq8v_ylVAAAGq3b.jpg",
+            "price": 444,
+            "description": "Assists you in perceiving life differently."    
+        },
+
+        {
+            "id": 3,
+            "productName":"1999",
+            "artistName":"Joey Bada$$",
+            "imgSource":"https://media.pitchfork.com/photos/5929be6113d197565213b713/1:1/w_600/8ddaecbe.jpeg",
+            "price": 444,
+            "description": "Sparks a spiritual awakening."   
+        },
+
+        {
+            "id": 4,
+            "productName":"Flatbush Indigo",
+            "artistName":"Capital Steez",
+            "imgSource":"https://i1.sndcdn.com/artworks-000237527724-tqsui0-t500x500.jpg",
+            "price": 444,
+            "description":"Will have you vibing in your own world."
+
+        },
+
+        {
+            "id": 5,
+            "productName":"Virgo World",
+            "artistName":"Lil Tecca",
+            "imgSource":"https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_750/https://newalbums.net/wp-content/uploads/2020/07/lil-tecca-virgo-world-album-leak-download.jpg",
+            "price": 333,
+            "description": "Tends to have people dancing in their rooms alone."
+
+        },
+
+        {
+            "id": 6,
+            "productName":"TattleTales",
+            "artistName": "6ix9ine",
+            "imgSource":"https://upload.wikimedia.org/wikipedia/en/6/63/6ix9ine_-_TattleTales.png",
+            "price": 333,
+            "description": "Upbeat album that makes you want to dance."  
+        },
+
+        {
+            "id": 7,
+            "productName":"After Hours",
+            "artistName":"The Weeknd",
+            "imgSource":"https://img.discogs.com/AnoqBncXnNEWU7QdVcyBgBewE84=/fit-in/600x601/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14970187-1586028941-7305.jpeg.jpg",
+            "price": 111,
+            "description": "Smooth album that'll put you to sleep."  
+        },
+
+        {
+            "id": 8,
+            "productName":"Circles",
+            "artistName":"Mac Miller",
+            "imgSource":"https://static.hiphopdx.com/2020/01/mac-miller-circles-683x692.jpg",
+            "price": 333,
+            "description":"Circles will have you wanting your ex back."
+
+        },
+
+        {
+            "id": 9,
+            "productName":"My Turn",
+            "artistName":"Lil Baby",
+            "imgSource":"https://hiphop-n-more.com/wp-content/uploads/2020/03/My-Turn.jpg",
+            "price": 444,   
+            "description":"Has listeners bobbing their head."
+        },
+
+        {
+            "id": 10,
+            "productName":"Legends Never Die",
+            "artistName":"Juice Wrld",
+            "imgSource":"https://cdn.vox-cdn.com/thumbor/r1CVRA2R6wiosPz8weltI8-o2w4=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20102753/merlin_92065003.jpg",
+            "price": 444,
+            "description":"Has you reevaluating your entire life."  
+        },
+
+        {
+            "id": 11,
+            "productName":"The Slow Rush",
+            "artistName":"Tame Impala",
+            "imgSource":"https://media.pitchfork.com/photos/5e41992daf0b890008c98164/1:1/w_600/The%20Slow%20Rush_Tame%20Impala.jpg",
+            "price": 333,   
+            "description":"Compels you to be in the present moment."
+        },
+
+        {
+            "id": 12,
+            "productName":"Anniversary",
+            "artistName":"Bryson Tiller",
+            "imgSource":"https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/vsdiltzohm6czedjfgfn/bryson-tiller-anniversary",
+            "price": 111,
+            "description":"Makes you want to get in a relationship." 
+        }
+    ]
+}

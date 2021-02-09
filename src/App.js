@@ -1,8 +1,8 @@
-import './App.css';
-import {Switch, Route} from 'react-router-dom';
-import Nav from '../src/Components/Nav';
-import Home from '../src/Components/Home';
-import Footer from '../src/Components/Footer';
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import Nav from "../src/Components/Nav";
+import Home from "../src/Components/Home";
+import Footer from "../src/Components/Footer";
 import Product from "../src/Components/Product";
 import Contact from "../src/Components/Contact";
 
@@ -11,27 +11,24 @@ import Contact from "../src/Components/Contact";
 function App() {
   return (
     <>
-    <Nav/>
-  
-    <Switch>
-      {/* back slash means it's always my home page */}
-      <Route exact path="/">
-       <Home/>
-       
-       
-      </Route>
+      <Nav />
 
-      <Route path="/products">
-        <Product/>
-      </Route>
+      <Switch>
+        {/* back slash means it's always my home page */}
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-      <Route path="/contact">
-        <Contact/>
-      </Route>
-    </Switch>
-    <Footer/>
+        <Route path="/products">
+          <Product />
+        </Route>
+
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+      <Footer />
     </>
-   
   );
 }
 

@@ -1,33 +1,26 @@
-
-
 .nav-container {
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-right: 10px;
-  
-   
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 10px;
 }
 
 .link-container {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    color: white;
-    
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
 }
 
 .link-container li {
-    /* margin-right: 8px; */
-
-    
+  /* margin-right: 8px; */
 }
 
 .link-container li a {
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    margin: 4px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  margin: 4px;
 }
 
 /* .active-hover:hover {
@@ -35,51 +28,46 @@
 } */
 
 .main-logo-container {
-    
-    display: flex;
-    /* justify-content: space-between; */
-    border-radius: 20px  red solid;
+  display: flex;
+  /* justify-content: space-between; */
+  border-radius: 20px red solid;
 }
 
 .main-logo {
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    margin-left: 15px;
-    color: white;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin-left: 15px;
+  color: white;
 }
-
 
 @media only screen and (min-width: 400px) and (max-width: 800px) {
-    .main-logo {
-        font-size: 50px;
-    }
-    .link-container {
-        margin-right: 5px;
-    }
-    .link-container li {
-        margin-right: 5px;
-    }
-    .link-container li a {
-        font-size: 20px;
-    }
-
+  .main-logo {
+    font-size: 50px;
+  }
+  .link-container {
+    margin-right: 5px;
+  }
+  .link-container li {
+    margin-right: 5px;
+  }
+  .link-container li a {
+    font-size: 20px;
+  }
 }
 
-
 @media only screen and (min-width: 800px) {
-    .nav-container {
-        width: 100%;
-        margin-right: 10px;
-    }
-    .main-logo {
-        font-size: 90px;
-    }
-    .link-container li {
-        margin-right: 20px;
-    }
-    .link-container li a {
-        font-size: 35px;
-    }
-
+  .nav-container {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .main-logo {
+    font-size: 90px;
+  }
+  .link-container li {
+    margin-right: 20px;
+  }
+  .link-container li a {
+    font-size: 35px;
+  }
 }

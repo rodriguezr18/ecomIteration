@@ -1,0 +1,39 @@
+.imgSlider img {
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+}
+
+@media only screen and (min-width: 800px) {
+  .imgSlider img {
+    height: 70vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    margin: 0px;
+  }
+
+  .imageSlider a,
+  button {
+    border: none;
+    text-decoration: none;
+  }
+
+  .slick-dots li button:before {
+    color: white;
+  }
+}
